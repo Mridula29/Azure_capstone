@@ -1,0 +1,22 @@
+{
+	"name": "sourcegit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "githublspipeline",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Mridula29/Azure_capstone/blob/main/bank_data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
