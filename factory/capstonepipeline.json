@@ -1,9 +1,0 @@
-{
-	"name": "capstonepipeline",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "da956215-fa81-4bb4-852a-532a8bc8feea",
-		"tenantId": "2d2199a8-cb98-4269-b2ae-c63cf2b7c7f0"
-	}
-}
